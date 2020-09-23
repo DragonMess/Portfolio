@@ -13,6 +13,9 @@ header {
     0px -4px 4px rgba(255, 255, 255, 0.5);
   border-radius: 50%;
 }
+.myDescription {
+  text-align: left;
+}
 .myName {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
@@ -20,14 +23,14 @@ header {
   font-size: 8vh;
   /* line-height: 10vh; */
 
-  color: #d5e3f2;
+  color: #b3cde0;
 }
 .myTitre {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 3.5vh;
-  color: #57a0f5;
+  color: #6497b1;
 }
 .mainArticle {
   min-height: 100vh;
@@ -40,10 +43,9 @@ header {
   font-style: normal;
   font-weight: 600;
   font-size: 3vh;
-  align-items: center;
   text-align: center;
   filter: drop-shadow(0px 4px 4px rgba(252, 248, 248, 0.25));
-  background: #313131;
+  background: #02416b;
   opacity: 0.7;
   border: 3px solid #ffffff;
   border-radius: 1vh;
@@ -60,7 +62,7 @@ header {
   padding-left: 5vh;
   width: 80%;
 
-  background: #7c6d9b;
+  background: #6497b1;
   border-radius: 3vh;
 }
 .rect-back h2 {
@@ -68,14 +70,14 @@ header {
   font-style: normal;
   font-weight: 800;
   font-size: 5.5vh;
-  color: #a2cbfc;
+  color: #005b96;
 }
 .rect-front {
   margin-left: auto;
   margin-right: auto;
   padding-top: 5vh;
   padding-bottom: 5vh;
-  background: #88bbbb;
+  background: #b3cde0;
   box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25),
     0px -4px 4px rgba(255, 255, 255, 0.25);
   border-radius: 3vh;
@@ -88,7 +90,7 @@ header {
   font-style: normal;
   font-weight: 500;
   font-size: 3vh;
-  color: #415770;
+  color: #03396c;
 }
 
 .rect-front h5 {
@@ -97,12 +99,12 @@ header {
   font-style: normal;
   font-weight: 500;
   font-size: 3vh;
-  color: #033d80;
+  color: #03396c;
 }
 
 .botton-article {
   height: 100vh;
-  background: #506885;
+  background: #006bb1;
 }
 .allCategories {
   margin-top: -2vh;
@@ -111,8 +113,8 @@ header {
   width: 80%;
 }
 .categories {
-  background-color: #bdd0e5;
-  color: #415770;
+  background-color: #00395f;
+  color: #b3cde0;
   border-radius: 3vh;
   margin-bottom: 2vh;
   padding-bottom: 5vh;
@@ -123,7 +125,7 @@ header {
   font-weight: bold;
   font-size: 3.5vh;
   text-align: center;
-  color: #415770;
+  color: #ffffff;
   padding-top: 2vh;
   padding-bottom: -1vh;
 }
@@ -132,7 +134,7 @@ header {
   font-style: normal;
   font-size: 2vh;
   text-align: center;
-  color: #033d80;
+  color: #b3cde0;
 }
 .titreCategories {
   font-family: Montserrat;
@@ -141,10 +143,11 @@ header {
   font-size: 7vh;
   text-align: center;
   color: #ffffff;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 footer {
+  background-color: #03396c;
   bottom: 0;
   width: 100%;
   height: 15vh; /* Footer height */
@@ -154,6 +157,7 @@ footer {
   font-size: 3vh;
   text-align: center;
   color: #ffffff;
+  padding-top: 2vh;
 }
 footer h2 {
   font-family: Montserrat;
