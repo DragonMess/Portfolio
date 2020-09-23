@@ -1,0 +1,25 @@
+:root {
+  --primaryBck: #415770;
+  --secondaryBck: #506885;
+  --navBck: #263445;
+  --primaryTxt: #ffffff;
+  --secondaryTxt: #bdd0e5;
+  --modeBck1: #88bbbb;
+  --modeBck2: #313131;
+}
+
+/* .mainNav, */
+.mainNav {
+  background-color: var(--navBck);
+  height: 5vh;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3vh;
+}
+.iconSocial {
+  height: 3vh;
+  margin-right: 2vh;
+  margin-left: 1vh;
+  color: white;
+}

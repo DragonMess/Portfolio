@@ -1,0 +1,172 @@
+header {
+  margin-top: 10vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-circle {
+  width: 25vh;
+  height: 30vh;
+  border: 2px solid #454444;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(251, 251, 251, 0.5),
+    0px -4px 4px rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+.myName {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 8vh;
+  /* line-height: 10vh; */
+
+  color: #d5e3f2;
+}
+.myTitre {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.5vh;
+  color: #57a0f5;
+}
+.mainArticle {
+  min-height: 100vh;
+}
+.hireMe-btn {
+  width: 20vh;
+  height: 5vh;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3vh;
+  align-items: center;
+  text-align: center;
+  filter: drop-shadow(0px 4px 4px rgba(252, 248, 248, 0.25));
+  background: #313131;
+  opacity: 0.7;
+  border: 3px solid #ffffff;
+  border-radius: 1vh;
+}
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+}
+.rect-back {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12vh;
+  margin-bottom: 5vh;
+  padding-left: 5vh;
+  width: 80%;
+
+  background: #7c6d9b;
+  border-radius: 3vh;
+}
+.rect-back h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 5.5vh;
+  color: #a2cbfc;
+}
+.rect-front {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background: #88bbbb;
+  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25),
+    0px -4px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 3vh;
+}
+.rect-front p {
+  margin-left: 5vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3vh;
+  color: #415770;
+}
+
+.rect-front h5 {
+  margin-left: 5vh;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3vh;
+  color: #033d80;
+}
+
+.botton-article {
+  height: 100vh;
+  background: #506885;
+}
+.allCategories {
+  margin-top: -2vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.categories {
+  background-color: #bdd0e5;
+  color: #415770;
+  border-radius: 3vh;
+  margin-bottom: 2vh;
+  padding-bottom: 5vh;
+}
+.categories h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.5vh;
+  text-align: center;
+  color: #415770;
+  padding-top: 2vh;
+  padding-bottom: -1vh;
+}
+.categories h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 2vh;
+  text-align: center;
+  color: #033d80;
+}
+.titreCategories {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 7vh;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 15vh; /* Footer height */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 3vh;
+  text-align: center;
+  color: #ffffff;
+}
+footer h2 {
+  font-family: Montserrat;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3vh;
+  text-align: center;
+  color: #ffffff;
+}
+
+.myProgressBar {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,28 @@
+:root {
+  --primaryBck: #415770;
+  --secondaryBck: #506885;
+  --navBck: #263445;
+  --primaryTxt: #ffffff;
+  --secondaryTxt: #bdd0e5;
+  --modeBck1: #88bbbb;
+  --modeBck2: #313131;
+}
+.App {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  /* background-color: var(--primaryBck); */
+}
+
+.backNoMatch {
+  background-image: url("/images/NoMatch.jpg");
+  height: 100vh;
+}
+.backNoMatch h2 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 8vh;
+  padding-top: 50vh;
+}
