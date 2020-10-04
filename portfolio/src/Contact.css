@@ -1,0 +1,52 @@
+.title {
+  margin-top: 4vh;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4vh;
+  text-align: center;
+  color: #ffffff;
+}
+
+.contactCard {
+  font-family: Montserrat;
+  font-style: normal;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  background: #00395f;
+  box-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25),
+    0px -4px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 3vh;
+}
+
+.contactCardHeader {
+  text-align: center;
+  color: #b3cde0;
+}
+.titleHeader {
+  padding-top: 2vh;
+  font-size: 6vh;
+  font-weight: bolder;
+}
+.secondaryTitleHeader {
+  font-size: 3vh;
+}
+.hrContact {
+  border-color: white;
+}
+.contactWay {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  font-size: 1.8vh;
+  margin: 1vh 0 0 0;
+  /* justify-content: center; */
+}
+.iconContact {
+  width: 2vw;
+  margin: 0vh 1vh 0vh 0vh;
+}
+.contactTxt {
+  margin: 0vh 0 0vh 1vh;
+}

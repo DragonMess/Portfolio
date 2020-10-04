@@ -1,17 +1,7 @@
-:root {
-  --primaryBck: #005b96;
-  --secondaryBck: #506885;
-  --navBck: #263445;
-  --primaryTxt: #ffffff;
-  --secondaryTxt: #bdd0e5;
-  --modeBck1: #88bbbb;
-  --modeBck2: #313131;
-}
-
 /* .mainNav, */
 .mainNav {
   background-color: #03396c;
-  height: 5vh;
+  height: 7vh;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;

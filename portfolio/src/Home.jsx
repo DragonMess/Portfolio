@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Col, ProgressBar, Row } from "react-bootstrap";
+import Footer from "./components/Footer";
 import "./Home.css";
 const srcImage = "./images/PhotoCamilo.jpg";
 const srcImage2 = "./images/CamiloSmile.jpg";
@@ -11,7 +12,7 @@ function Home() {
   };
   return (
     <>
-      <article className="mainArticle">
+      <article className="mainArticle" id="about">
         <header>
           <Row>
             <Col xs={12} md={4}>
@@ -58,7 +59,7 @@ function Home() {
           </div>
         </div>
       </article>
-      <article className="botton-article">
+      <article className="botton-article" id="skills">
         <h2 className="titreCategories">Skills</h2>
         <div className="allCategories">
           <Row>
@@ -152,19 +153,7 @@ function Home() {
           </Row>
         </div>
       </article>
-      <footer>
-        <h2>Interested in hiring me?</h2>
-        <p>
-          Send me an email at:
-          <b>
-            <a href="mailto:camilopinedadev@gmail.com">
-              {" "}
-              camilopinedadev@gmail.com{" "}
-            </a>
-          </b>
-          or use the form on the page contact
-        </p>
-      </footer>
+      <Footer></Footer>
     </>
   );
 }
