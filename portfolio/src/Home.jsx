@@ -41,7 +41,9 @@ function Home() {
               <div className="myDescription">
                 <h1 className="myName">Camilo Pineda</h1>
                 <h3 className="myTitre">Full-Stack Web Developer</h3>
-                <button className="hireMe-btn">Hire Me !</button>
+                <button className="hireMe-btn">
+                  <a href="/contact">Hire Me !</a>
+                </button>
               </div>
             </Col>
           </Row>

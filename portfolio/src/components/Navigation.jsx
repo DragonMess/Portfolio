@@ -4,7 +4,7 @@ import { Navbar, Nav } from "react-bootstrap";
 
 function Navigation() {
   return (
-    <>
+    <div className="navTop">
       <Navbar
         collapseOnSelect
         expand="lg"
@@ -17,7 +17,6 @@ function Navigation() {
           fontWeight: "bold",
         }}
       >
-        {/* className="mainNav" */}
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
@@ -40,7 +39,7 @@ function Navigation() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </>
+    </div>
   );
 }
 
