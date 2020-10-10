@@ -17,13 +17,9 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    // "start": "react-scripts start",
-    // "build": "react-scripts build",
-    // "test": "react-scripts test",
-    // "eject": "react-scripts eject"
     "start": "node index.js",
   "build": "ng build",
-  "heroku-postbuild": "ng build --prod" // this will be run on Heroku
+  "heroku-postbuild": "ng build --prod"
   },
   "eslintConfig": {
     "extends": "react-app"
