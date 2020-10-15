@@ -161,6 +161,17 @@
   text-align: center;
   color: #b3cde0;
 }
+
+.cv-btn {
+  margin-top: 0.5vh;
+  margin-bottom: 2vh;
+  background-color: #01243b;
+  border-radius: 1vh;
+  padding: 0.5vh;
+}
+h2 {
+  color: #0271bb;
+}
 /* .titleHeader {
   padding-top: 2vh;
   font-size: calc(8px + 4vh);

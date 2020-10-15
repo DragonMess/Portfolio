@@ -153,6 +153,7 @@ function Home() {
               </div>
             </Col>
           </Row>
+          <div className="portfolioLink"><a href="/projects"><h2>My Porfolio</h2></a></div>
         </div>
       </article>
       <Footer></Footer>
