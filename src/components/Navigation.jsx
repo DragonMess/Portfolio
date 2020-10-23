@@ -29,13 +29,13 @@ function Navigation() {
             <Nav.Link href="https://www.facebook.com/WebDeveloper-C-P-111491687200022">
               <img src="/images/facebook.svg" className="iconSocial" />
             </Nav.Link>
-            <Nav.Link href="/">My Portfolio</Nav.Link>
+            <Nav.Link className="color-nav" href="/">My Portfolio</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="/">About Me</Nav.Link>
-            <Nav.Link href="./#skills">Skills</Nav.Link>
-            <Nav.Link href="/projects">Projects</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link className="color-nav" href="/">About Me</Nav.Link>
+            <Nav.Link className="color-nav" href="./#skills">Skills</Nav.Link>
+            <Nav.Link className="color-nav" href="/projects">Projects</Nav.Link>
+            <Nav.Link className="color-nav" href="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

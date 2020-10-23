@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Col, ProgressBar, Row } from "react-bootstrap";
+import { Button, Col, Jumbotron, ProgressBar, Row } from "react-bootstrap";
 import Footer from "./components/Footer";
 import "./Home.css";
 const srcImage = "./images/PhotoCamilo.jpg";
@@ -49,19 +49,20 @@ function Home() {
           </Row>
         </header>
         <div className="aboutContainer">
-          <div className="rect-back">
-            <h2>About Me</h2>
-            <div className="rect-front">
+
+          <Jumbotron className="rect-back">
+  <h2>About Me</h2>
+           <div className="rect-front">
               <p>
                 I am a full-stack web developer from Montreal. I enjoy planning
                 and building web applications and websites.
               </p>
               <h5>passionate_about = [ coding, learning , coffee ];</h5>
             </div>
-          </div>
+</Jumbotron>
         </div>
       </article>
-      <article className="botton-article" id="skills">
+      <article className="bottom-article" id="skills">
         <h2 className="titreCategories">Skills</h2>
         <div className="allCategories">
           <Row>
@@ -153,10 +154,11 @@ function Home() {
               </div>
             </Col>
           </Row>
-          <div className="portfolioLink"><a href="/projects"><h2>My Porfolio</h2></a></div>
+ <div className="portfolioLink"><a href="/projects"><h2>My Porfolio</h2></a></div>
         </div>
+        <Footer></Footer>
       </article>
-      <Footer></Footer>
+      
     </>
   );
 }

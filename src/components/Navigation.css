@@ -13,3 +13,12 @@
   margin-left: 1vh;
   color: white;
 }
+.color-nav {
+  color: #b3cde0 !important;
+  /* background-color: white; */
+}
+
+.color-nav:hover {
+  color: white !important;
+  /* background-color: white; */
+}
