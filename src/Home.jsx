@@ -12,11 +12,12 @@ function Home() {
   };
   return (
     <>
-      <article className="mainArticle" id="about">
+      <article className="mainHome" id="about">
+        <div  className="filter">
         <header>
           <Row>
             <Col xs={12} md={4}>
-              <div className="myPhoto" onMouseOver={handleImage}>
+              {/* <div className="myPhoto" onMouseOver={handleImage}>
                 {!changeImage ? (
                   <img
                     src={srcImage}
@@ -34,7 +35,7 @@ function Home() {
                     height="236"
                   />
                 )}
-              </div>
+              </div> */}
             </Col>
 
             <Col xs={12} md={8}>
@@ -48,18 +49,19 @@ function Home() {
             </Col>
           </Row>
         </header>
-        <div className="aboutContainer">
+        <section className="aboutContainer">
 
-          <Jumbotron className="rect-back">
-  <h2>About Me</h2>
+          <div className="rect-back">
+            <h2>About Me</h2>
            <div className="rect-front">
               <p>
                 I am a full-stack web developer from Montreal. I enjoy planning
                 and building web applications and websites.
               </p>
-              <h5>passionate_about = [ coding, learning , coffee ];</h5>
+              <h5>passionateAbout = [ coding, learning , coffee ];</h5>
             </div>
-</Jumbotron>
+</div>
+        </section>
         </div>
       </article>
       <article className="bottom-article" id="skills">

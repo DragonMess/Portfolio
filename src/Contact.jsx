@@ -42,6 +42,8 @@ function Contact() {
               <div className="contactTxt">www.camilopinedadev.com</div>
             </div>
           </div>
+        </header>
+      </article>
           <button className="cv-btn">
             <a href="/images/CV-CamiloPineda.pdf" download>
               <h2>
@@ -49,8 +51,6 @@ function Contact() {
               </h2>
             </a>
           </button>
-        </header>
-      </article>
     </div>
   );
 }

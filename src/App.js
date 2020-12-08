@@ -13,6 +13,8 @@ function App() {
     <Layout>
       <Navigation />
       <Router>
+        {/* <Router basename={window.location.pathname || "http://localhost:3000/"}> */}
+
         <Switch>
           <Route exact path="/" component={Home}></Route>
           <Route path="/projects" component={Projects}></Route>
