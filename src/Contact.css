@@ -14,12 +14,12 @@
     width: 50vw;
   }
   .title {
-    margin-top: 4vh;
+    margin-top: 2vh;
     margin-bottom: 4vh;
     font-size: 4vh;
   }
   .titleHeader {
-    margin-top: -30px;
+    /* margin-top: px; */
     font-size: calc(10px + 4vh);
     font-weight: bolder;
   }
@@ -48,7 +48,7 @@
     font-size: 4vh;
   }
   .titleHeader {
-    /* padding-top: 2vh; */
+    padding-top: 6vh;
     margin-top: -60px;
     font-size: calc(10px + 4vh);
     font-weight: bolder;
@@ -81,7 +81,7 @@
     font-size: 4vh;
   }
   .titleHeader {
-    /* padding-top: 2vh; */
+    padding-top: 5vh;
     margin-top: -55px;
     font-size: calc(8px + 3.3vh);
     font-weight: bolder;
@@ -112,7 +112,7 @@
     font-size: 3vh;
   }
   .titleHeader {
-    /* padding-top: 1vh; */
+    padding-top: 3vh;
     margin-top: -50px;
     font-size: calc(8px + 3vh);
     font-weight: bolder;

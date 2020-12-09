@@ -9,6 +9,7 @@ function MyCard(props) {
     projectDescription,
     projectStack,
     projectLink,
+    gitHubLink
   } = props;
   return (
     <>
@@ -49,9 +50,27 @@ function MyCard(props) {
             color: "white",
             backgroundColor: "#011F4B",
             fontFamily: "Montserrat",
+            color:"#ffff "
           }}
         >
-          <a href={projectLink}>{projectLink}</a>
+          <div><img src="/images/GitHub.svg" className="iconSocial" /></div>
+          <a href={ gitHubLink}
+            style={{
+              display:"block",
+              // textDecoration:"none",
+              fontSize:"1.5vh",
+            color:"#ffff "
+          }}
+          >{gitHubLink}</a>
+          <hr style={{ borderColor: "white" }} />
+          <div><img  src="./images/contact/globe-americas-solid.svg"className="iconSocial" /></div>
+         <a href={projectLink}
+            style={{
+              // textDecoration:"none",
+              fontSize:"1.5vh",
+            color:"#ffff "
+          }}
+          >{projectLink}</a>
         </Card.Footer>
       </Card>
     </>
