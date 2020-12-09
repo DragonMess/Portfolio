@@ -5,6 +5,15 @@ import MyCard from "./components/MyCard";
 import "./Projects.css"
 const dataProjects = {
   projects: [
+        {
+      srcImgProject: "./images/Projects/RedEntretien.png",
+      title: "WebPage: RedEntretien",
+      projectStack:
+        "React, Node.js, React-Routes, Styled Components, react Scroll",
+      projectDescription:
+        "Thisis a web page builded in React for a client in cleaning services.  This application has some simulated  routes the scroll section and  have the possibility to send email with EmailJs",
+      projectLink: "https://redentretienweb.herokuapp.com/",
+    },
     {
       srcImgProject: "./images/Projects/BeerLovers.png",
       title: "BeerLovers",

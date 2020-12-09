@@ -51,7 +51,7 @@ function MyCard(props) {
             fontFamily: "Montserrat",
           }}
         >
-          <a href={projectLink}>https://www.{title}</a>
+          <a href={projectLink}>{projectLink}</a>
         </Card.Footer>
       </Card>
     </>
